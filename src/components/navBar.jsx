@@ -3,12 +3,12 @@ import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
-      <Link class="navbar-brand font-weight-bold" to="/">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-5">
+      <Link className="navbar-brand font-weight-bold" to="/">
         Vidly
       </Link>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavAltMarkup"
